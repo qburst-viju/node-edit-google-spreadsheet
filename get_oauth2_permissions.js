@@ -19,8 +19,7 @@
 
 var readline = require("readline");
 
-var googleAuth = require("google-auth-library");
-var OAuth2Client = new googleAuth().OAuth2;
+var OAuth2Client = require("google-auth-library").OAuth2Client;
 
 // Client ID and client secret are available at
 // https://code.google.com/apis/console
